@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #134361;
+    padding-left: 180px;
+    display: flex;
+    position: fixed;
+    width: 2000px;
+}
+nav a{
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+   font-size: 18px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.Login{
+    margin-left: 650px;
+    padding-top: 15px;
+}
+main img{
+    width: 1000px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.background{
+    background-image: url(background.JPG);;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(100%);
+    mix-blend-mode: darken;
+    padding-top: 400px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+section{
+    color: rgb(56, 51, 51);
+    margin-right: 200px;
+    background-color: rgb(234, 231, 231);
+    width: 1350px;
+   padding-left: 450px;
+}
+section h3{
+    margin-left: 80px;
+}
+section p{
+    margin-top: 20px;
+}
+
+/* Form */
+form img{
+    width: 330px;
+    padding-bottom: 20px;
+}
+
+form a{
+    text-decoration: none;
+    color: #ce2d2d;
+    margin-bottom: 30px;
+  
+}
+form h3{
+    margin-bottom: 20px;
+}
+form p{
+    margin-bottom: 50px;
+}
+form{
+    background-color: white;
+    width: 330px;
+    margin-left: 50px;
+    margin-top: 20px;
+   padding-bottom: 20px;
+    text-align: center;
+    color: #ce2d2d;
+}
+.tech_hub{
+    margin-left: 5px;
+    
+}
+footer{
+    padding-top: 30px;
+    background-color: #3a5699;
+    display: flex;
+}
+.social a{
+    margin-left: 50px;
+    text-decoration: none;
+}
+footer a{
+    margin-left: 300px;
+    color: white;
+    text-decoration: none;
+}
