@@ -33,12 +33,12 @@ main img{
     margin-bottom: 50px;
 }
 .background{
-    background-image: url(background.JPG);;
+    background-image: url(background.JPG);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(100%);
-    mix-blend-mode: darken;
+    mix-blend-mode:exclusion;
     padding-top: 400px;
     font-size: 40px;
     color: white;
